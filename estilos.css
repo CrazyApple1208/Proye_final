@@ -1,0 +1,117 @@
+
+
+/* estilos.css */
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+/* Estilo del formulario */
+form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #004080;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Mensaje de éxito */
+p {
+    font-size: 16px;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+}
+
+/* Enlaces */
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de botones extras */
+button:nth-of-type(1) {
+    background-color: #007bff;
+}
+
+button:nth-of-type(1):hover {
+    background-color: #0056b3;
+}
+
+button:nth-of-type(2) {
+    background-color: #28a745;
+}
+
+button:nth-of-type(2):hover {
+    background-color: #218838;
+}
+
+button:nth-of-type(3) {
+    background-color: #ffc107;
+}
+
+button:nth-of-type(3):hover {
+    background-color: #e0a800;
+}
+
+/* Estilo para las opciones del menú */
+.menu-button {
+    padding: 15px;
+    background-color: #28a745;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+.menu-button:hover {
+    background-color: #218838;
+}
